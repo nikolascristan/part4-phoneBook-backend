@@ -1,0 +1,46 @@
+GET http://localhost:3001/api/persons
+
+###
+
+GET http://localhost:3001/info
+
+###
+GET http://localhost:3001/api/persons/66ad1ec7e8e
+
+###
+DELETE http://localhost:3001/api/persons/66b6caefa8aff7082e2fcfad
+
+###
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+   "name": "July Tdsasd", 
+    "number": "56312443"
+}
+
+###
+GET http://localhost:3001/api/notes
+
+//Testing with render
+###
+GET https://part3-phonebook-backend-bh2t.onrender.com/api/persons
+
+###
+
+GET https://part3-phonebook-backend-bh2t.onrender.com/info
+
+###
+GET https://part3-phonebook-backend-bh2t.onrender.com/api/persons/10
+
+###
+DELETE https://part3-phonebook-backend-bh2t.onrender.com/api/persons/411208
+
+###
+POST https://part3-phonebook-backend-bh2t.onrender.com/api/persons
+Content-Type: application/json
+
+{
+    "name": "July Thirty", 
+    "number": "657890132"
+}
