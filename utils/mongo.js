@@ -7,7 +7,7 @@ const name = process.argv[3]
 const number = process.argv[4]
 
 const url =
-`mongodb+srv://nik:${password}@cluster0.omph99c.mongodb.net/personApp?retryWrites=true&w=majority&appName=Cluster0`
+`mongodb+srv://nik:${password}@cluster0.omph99c.mongodb.net/blogApp?retryWrites=true&w=majority&appName=Cluster0`
 
 const personSchema = new mongoose.Schema({
   name: String,
@@ -29,6 +29,7 @@ if (process.argv[2].length<3) {
 mongoose.set('strictQuery',false)
 mongoose.connect(url)
 if (process.argv[3] && process.argv[4]) {
+  // eslint-disable-next-line no-unused-vars
   person.save().then(result => {
     //console.log(result)
     console.log(`added ${name} number ${number} to phonebook`)
