@@ -1,6 +1,6 @@
 # part4-phoneBook-backend
 
-Welcome to the **part4-phoneBook-backend**! This is a refactored **part3-phoneBook-backend**.
+Welcome to the **part4-phoneBook-backend**! This is a refactored **part3-phoneBook-backend**. (Both backends are connected to the same database.)
 
 ## link to deployed backend
 https://part4-phonebook-backend.onrender.com
