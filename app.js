@@ -8,8 +8,6 @@ const logger = require('./utils/logger')
 const morgan = require('morgan')
 const mongoose = require('mongoose')
 
-//const Person = require('./models/person')
-
 mongoose.set('strictQuery', false)
 
 logger.info('connecting to', config.MONGODB_URI)
